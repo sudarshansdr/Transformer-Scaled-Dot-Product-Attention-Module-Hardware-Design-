@@ -1,0 +1,62 @@
+Information: Updating design information... (UID-85)
+Information: Timing loop detected. (OPT-150)
+	U1029/A U1029/ZN U2821/A U2821/ZN U1132/A U1132/ZN U2773/A U2773/ZN U1018/B2 U1018/ZN U8890/A U8890/ZN 
+Warning: Disabling timing arc between pins 'B2' and 'ZN' on cell 'U1018'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'B2' and 'ZN' on cell 'U1018'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'B2' and 'ZN' on cell 'U1018'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'C2' and 'ZN' on cell 'U1018'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'C2' and 'ZN' on cell 'U1018'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'C2' and 'ZN' on cell 'U1018'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'ZN' on cell 'U1029'
+         to break a timing loop. (OPT-314)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 1
+Design : MyDesign
+Version: T-2022.03-SP4
+Date   : Sat Nov 16 19:45:22 2024
+****************************************
+
+Operating Conditions: fast   Library: NangateOpenCellLibrary_PDKv1_2_v2008_10_fast_nldm
+Wire Load Model Mode: top
+
+  Startpoint: R_Count_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: R_Count_reg[0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                  0.0000     0.0000
+  clock network delay (ideal)            0.0000     0.0000
+  R_Count_reg[0]/CK (DFF_X1)             0.0000     0.0000 r
+  R_Count_reg[0]/Q (DFF_X1)              0.0599     0.0599 r
+  U10432/ZN (NOR2_X1)                    0.0197     0.0795 f
+  R_Count_reg[0]/D (DFF_X1)              0.0000     0.0795 f
+  data arrival time                                 0.0795
+
+  clock clk (rise edge)                  0.0000     0.0000
+  clock network delay (ideal)            0.0000     0.0000
+  clock uncertainty                      0.0500     0.0500
+  R_Count_reg[0]/CK (DFF_X1)             0.0000     0.0500 r
+  library hold time                      0.0009     0.0509
+  data required time                                0.0509
+  -----------------------------------------------------------
+  data required time                                0.0509
+  data arrival time                                -0.0795
+  -----------------------------------------------------------
+  slack (MET)                                       0.0286
+
+
+1

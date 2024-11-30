@@ -1,0 +1,1 @@
+/mnt/apps/public/COE/mg_apps/questa2024.2/questasim/linux/VisualizerRls/bin/viscom -nolock -quiet -jmem_size 786432 work.tb_top -quiet -auto_acc_if_foreign -work work +acc -allow_unnamed -o _opt -id 1-000ae431a4f1-67395274-6d966-1a8d56 +__design_bin_path+/mnt/ncsudrive/s/srajkum/564MainProject/run +__betafsm

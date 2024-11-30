@@ -1,0 +1,302 @@
+GNU gdb (GDB) Red Hat Enterprise Linux 8.2-20.el8
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-redhat-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word".
+Attaching to process 783492
+Reading symbols from /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/common_shell_exec...(no debugging symbols found)...done.
+Reading symbols from /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libtbb.so.12...done.
+Reading symbols from /lib64/libXft.so.2...Reading symbols from .gnu_debugdata for /lib64/libXft.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libXss.so.1...Reading symbols from .gnu_debugdata for /lib64/libXss.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libQt5WebChannel.so.5...(no debugging symbols found)...done.
+Reading symbols from /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libQt5WebSockets.so.5...(no debugging symbols found)...done.
+Reading symbols from /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libQt5WebKitWidgets.so.5...(no debugging symbols found)...done.
+Reading symbols from /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libQt5WebKit.so.5...(no debugging symbols found)...done.
+Reading symbols from /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libz.so.1...(no debugging symbols found)...done.
+Reading symbols from /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libfontconfig.so.1...Reading symbols from .gnu_debugdata for /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libfontconfig.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libutil.so.1...Reading symbols from .gnu_debugdata for /lib64/libutil.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libuuid.so.1...Reading symbols from .gnu_debugdata for /lib64/libuuid.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libprotobuf.so.19...done.
+Reading symbols from /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/liboasis-O.so...(no debugging symbols found)...done.
+Reading symbols from /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libgomp.so.1...done.
+Reading symbols from /lib64/libpthread.so.0...(no debugging symbols found)...done.
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib64/libthread_db.so.1".
+Reading symbols from /lib64/libdl.so.2...(no debugging symbols found)...done.
+Reading symbols from /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libQt5Widgets.so.5...(no debugging symbols found)...done.
+Reading symbols from /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libQt5Svg.so.5...(no debugging symbols found)...done.
+Reading symbols from /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libQt5Gui.so.5...(no debugging symbols found)...done.
+Reading symbols from /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libQt5X11Extras.so.5...(no debugging symbols found)...done.
+Reading symbols from /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libQt5PrintSupport.so.5...(no debugging symbols found)...done.
+Reading symbols from /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libQt5Network.so.5...(no debugging symbols found)...done.
+Reading symbols from /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libQt5Xml.so.5...(no debugging symbols found)...done.
+Reading symbols from /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libQt5Core.so.5...(no debugging symbols found)...done.
+Reading symbols from /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libQt5Sql.so.5...(no debugging symbols found)...done.
+Reading symbols from /lib64/libX11.so.6...Reading symbols from .gnu_debugdata for /lib64/libX11.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libxcb.so.1...Reading symbols from .gnu_debugdata for /lib64/libxcb.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/librt.so.1...(no debugging symbols found)...done.
+Reading symbols from /lib64/libXext.so.6...Reading symbols from .gnu_debugdata for /lib64/libXext.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libXi.so.6...Reading symbols from .gnu_debugdata for /lib64/libXi.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libXrender.so.1...Reading symbols from .gnu_debugdata for /lib64/libXrender.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libXrandr.so.2...Reading symbols from .gnu_debugdata for /lib64/libXrandr.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libfreetype.so.6...Reading symbols from .gnu_debugdata for /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libfreetype.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libSM.so.6...Reading symbols from .gnu_debugdata for /lib64/libSM.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libICE.so.6...Reading symbols from .gnu_debugdata for /lib64/libICE.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libpng12.so.0...Reading symbols from .gnu_debugdata for /lib64/libpng12.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libm.so.6...Reading symbols from .gnu_debugdata for /lib64/libm.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libc.so.6...(no debugging symbols found)...done.
+Reading symbols from /lib64/ld-linux-x86-64.so.2...done.
+Reading symbols from /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libstdc++.so.6...done.
+Reading symbols from /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libgcc_s.so.1...done.
+Reading symbols from /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libQt5Qml.so.5...(no debugging symbols found)...done.
+Reading symbols from /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libxslt.so.1...Reading symbols from .gnu_debugdata for /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libxslt.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libxml2.so.2...Reading symbols from .gnu_debugdata for /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libxml2.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libsqlite3.so.0...Reading symbols from .gnu_debugdata for /lib64/libsqlite3.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libicui18n.so.50...Reading symbols from .gnu_debugdata for /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libicui18n.so.50...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libicuuc.so.50...Reading symbols from .gnu_debugdata for /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libicuuc.so.50...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libicudata.so.50...Reading symbols from .gnu_debugdata for /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libicudata.so.50...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libQt5Sensors.so.5...(no debugging symbols found)...done.
+Reading symbols from /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libQt5Positioning.so.5...(no debugging symbols found)...done.
+Reading symbols from /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libQt5MultimediaWidgets.so.5...(no debugging symbols found)...done.
+Reading symbols from /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libQt5Multimedia.so.5...(no debugging symbols found)...done.
+Reading symbols from /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libQt5OpenGL.so.5...(no debugging symbols found)...done.
+Reading symbols from /lib64/libGL.so.1...Reading symbols from .gnu_debugdata for /lib64/libGL.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libXcomposite.so.1...Reading symbols from .gnu_debugdata for /lib64/libXcomposite.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libjpeg.so.62...Reading symbols from .gnu_debugdata for /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libjpeg.so.62...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libpng15.so.15...Reading symbols from .gnu_debugdata for /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libpng15.so.15...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libwebp.so.4...Reading symbols from .gnu_debugdata for /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libwebp.so.4...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libQt5Quick.so.5...(no debugging symbols found)...done.
+Reading symbols from /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libQt5QmlModels.so.5...(no debugging symbols found)...done.
+Reading symbols from /lib64/libexpat.so.1...Reading symbols from .gnu_debugdata for /lib64/libexpat.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libharfbuzz.so.0...Reading symbols from .gnu_debugdata for /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libharfbuzz.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libgssapi_krb5.so.2...Reading symbols from .gnu_debugdata for /lib64/libgssapi_krb5.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libXau.so.6...Reading symbols from .gnu_debugdata for /lib64/libXau.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libbz2.so.1...Reading symbols from .gnu_debugdata for /lib64/libbz2.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/liblzma.so.5...Reading symbols from .gnu_debugdata for /lib64/liblzma.so.5...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libpulse-mainloop-glib.so.0...Reading symbols from .gnu_debugdata for /lib64/libpulse-mainloop-glib.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libpulse.so.0...Reading symbols from .gnu_debugdata for /lib64/libpulse.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libglib-2.0.so.0...Reading symbols from .gnu_debugdata for /lib64/libglib-2.0.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libGLX.so.0...Reading symbols from .gnu_debugdata for /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libGLX.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libGLdispatch.so.0...Reading symbols from .gnu_debugdata for /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/../shlib/libGLdispatch.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libgraphite2.so.3...Reading symbols from .gnu_debugdata for /lib64/libgraphite2.so.3...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libkrb5.so.3...Reading symbols from .gnu_debugdata for /lib64/libkrb5.so.3...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libk5crypto.so.3...Reading symbols from .gnu_debugdata for /lib64/libk5crypto.so.3...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libcom_err.so.2...Reading symbols from .gnu_debugdata for /lib64/libcom_err.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libkrb5support.so.0...Reading symbols from .gnu_debugdata for /lib64/libkrb5support.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libkeyutils.so.1...Reading symbols from .gnu_debugdata for /lib64/libkeyutils.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libcrypto.so.1.1...Reading symbols from .gnu_debugdata for /lib64/libcrypto.so.1.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libresolv.so.2...Reading symbols from .gnu_debugdata for /lib64/libresolv.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /usr/lib64/pulseaudio/libpulsecommon-14.0.so...Reading symbols from .gnu_debugdata for /usr/lib64/pulseaudio/libpulsecommon-14.0.so...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libX11-xcb.so.1...Reading symbols from .gnu_debugdata for /lib64/libX11-xcb.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libXtst.so.6...Reading symbols from .gnu_debugdata for /lib64/libXtst.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libsystemd.so.0...Reading symbols from .gnu_debugdata for /lib64/libsystemd.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libsndfile.so.1...Reading symbols from .gnu_debugdata for /lib64/libsndfile.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libasyncns.so.0...Reading symbols from .gnu_debugdata for /lib64/libasyncns.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libdbus-1.so.3...Reading symbols from .gnu_debugdata for /lib64/libdbus-1.so.3...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libcap.so.2...Reading symbols from .gnu_debugdata for /lib64/libcap.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libgnutls.so.30...Reading symbols from .gnu_debugdata for /lib64/libgnutls.so.30...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libpcre.so.1...Reading symbols from .gnu_debugdata for /lib64/libpcre.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libselinux.so.1...Reading symbols from .gnu_debugdata for /lib64/libselinux.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/liblz4.so.1...Reading symbols from .gnu_debugdata for /lib64/liblz4.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libmount.so.1...Reading symbols from .gnu_debugdata for /lib64/libmount.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libgcrypt.so.20...Reading symbols from .gnu_debugdata for /lib64/libgcrypt.so.20...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libgsm.so.1...Reading symbols from .gnu_debugdata for /lib64/libgsm.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libFLAC.so.8...Reading symbols from .gnu_debugdata for /lib64/libFLAC.so.8...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libogg.so.0...Reading symbols from .gnu_debugdata for /lib64/libogg.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libvorbis.so.0...Reading symbols from .gnu_debugdata for /lib64/libvorbis.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libvorbisenc.so.2...Reading symbols from .gnu_debugdata for /lib64/libvorbisenc.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libp11-kit.so.0...Reading symbols from .gnu_debugdata for /lib64/libp11-kit.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libidn2.so.0...Reading symbols from .gnu_debugdata for /lib64/libidn2.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libunistring.so.2...Reading symbols from .gnu_debugdata for /lib64/libunistring.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libtasn1.so.6...Reading symbols from .gnu_debugdata for /lib64/libtasn1.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libnettle.so.6...Reading symbols from .gnu_debugdata for /lib64/libnettle.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libhogweed.so.4...Reading symbols from .gnu_debugdata for /lib64/libhogweed.so.4...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libgmp.so.10...Reading symbols from .gnu_debugdata for /lib64/libgmp.so.10...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libpcre2-8.so.0...Reading symbols from .gnu_debugdata for /lib64/libpcre2-8.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libblkid.so.1...Reading symbols from .gnu_debugdata for /lib64/libblkid.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libgpg-error.so.0...Reading symbols from .gnu_debugdata for /lib64/libgpg-error.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libffi.so.6...Reading symbols from .gnu_debugdata for /lib64/libffi.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libnss_files.so.2...Reading symbols from .gnu_debugdata for /lib64/libnss_files.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libnss_mdns4_minimal.so.2...Reading symbols from .gnu_debugdata for /lib64/libnss_mdns4_minimal.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libnss_dns.so.2...Reading symbols from .gnu_debugdata for /lib64/libnss_dns.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libudev.so.1...Reading symbols from .gnu_debugdata for /lib64/libudev.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libdbus-glib-1.so.2...Reading symbols from .gnu_debugdata for /lib64/libdbus-glib-1.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libgio-2.0.so.0...Reading symbols from .gnu_debugdata for /lib64/libgio-2.0.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libgobject-2.0.so.0...Reading symbols from .gnu_debugdata for /lib64/libgobject-2.0.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libgmodule-2.0.so.0...Reading symbols from .gnu_debugdata for /lib64/libgmodule-2.0.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libnss_sss.so.2...Reading symbols from .gnu_debugdata for /lib64/libnss_sss.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+0x000015554e22ce0b in waitpid () from /lib64/libc.so.6
+Missing separate debuginfos, use: yum debuginfo-install bzip2-libs-1.0.6-27.el8_10.x86_64 dbus-glib-0.110-2.el8.x86_64 dbus-libs-1.12.8-26.el8.x86_64 expat-2.2.5-15.el8_10.x86_64 flac-libs-1.3.2-9.el8_8.1.x86_64 glib2-2.56.4-165.el8_10.x86_64 glibc-2.28-251.el8_10.5.x86_64 gmp-6.1.2-11.el8.x86_64 gnutls-3.6.16-8.el8_9.3.x86_64 graphite2-1.3.10-10.el8.x86_64 gsm-1.0.17-5.el8.x86_64 keyutils-libs-1.5.10-9.el8.x86_64 krb5-libs-1.18.2-30.el8_10.x86_64 libICE-1.0.9-15.el8.x86_64 libSM-1.2.3-1.el8.x86_64 libX11-1.6.8-9.el8_10.x86_64 libX11-xcb-1.6.8-9.el8_10.x86_64 libXScrnSaver-1.2.3-1.el8.x86_64 libXcomposite-0.4.4-14.el8.x86_64 libXext-1.3.4-1.el8.x86_64 libXft-2.3.3-1.el8.x86_64 libXrandr-1.5.2-1.el8.x86_64 libXrender-0.9.10-7.el8.x86_64 libXtst-1.2.3-7.el8.x86_64 libasyncns-0.8-14.el8.x86_64 libcap-2.48-6.el8_9.x86_64 libcom_err-1.45.6-5.el8.x86_64 libffi-3.1-24.el8.x86_64 libgcrypt-1.8.5-7.el8_6.x86_64 libglvnd-glx-1.3.4-2.el8.x86_64 libgpg-error-1.31-1.el8.x86_64 libmount-2.32.1-46.el8.x86_64 libogg-1.3.2-10.el8.x86_64 libpng12-1.2.57-5.el8.x86_64 libselinux-2.9-8.el8.x86_64 libsndfile-1.0.28-14.el8.x86_64 libtasn1-4.13-4.el8_7.x86_64 libuuid-2.32.1-46.el8.x86_64 libxcb-1.13.1-1.el8.x86_64 lz4-libs-1.8.3-3.el8_4.x86_64 nettle-3.4.1-7.el8.x86_64 nss-mdns-0.14.1-9.el8.x86_64 openssl-libs-1.1.1k-14.el8_6.x86_64 pcre-8.42-6.el8.x86_64 pulseaudio-libs-14.0-4.el8.x86_64 pulseaudio-libs-glib2-14.0-4.el8.x86_64 sqlite-libs-3.26.0-19.el8_9.x86_64 sssd-client-2.9.4-4.el8_10.x86_64 systemd-libs-239-82.el8_10.2.x86_64
+(gdb) (gdb) #0  0x000015554e22ce0b in waitpid () from /lib64/libc.so.6
+#1  0x000015554e180747 in do_system () from /lib64/libc.so.6
+#2  0x0000000012fed25d in SNPSee_4f1eca636f186904 ()
+#3  0x0000000012fb91ed in SNPSee_216f3c2f4c55dbceb170dcb7639b9c2cdd496024a8e266b98132685c735317487fd2aa296d8a7317 ()
+#4  0x0000000012fbabdd in SNPSee_216f3c2f4c55dbceb170dcb7639b9c2cdd496024a8e266b98132685c73531748e1eb9162e9fd7182 ()
+#5  0x0000000000d4429a in SNPSee_f1ee00d2049be34bc9fa2aabd0709c661b77ea09a2cd7785 ()
+#6  0x000000000da335a1 in SNPSee_b0111077a1564ec2f03c23d0bb102089cced107fffe7abc9 ()
+#7  0x000000000da33dea in SNPSee_b0111077a1564ec2f03c23d0bb10208996f73d5da3bdb873ca1599303c3fe6ce ()
+#8  0x000000000da47a99 in SNPSee_984d05116d5adeee0148d0ab050fb14e ()
+#9  0x000000000da1948a in SNPSee_3a06f7d476a4fab9b333afd18a48bf443459b177cf37e568 ()
+#10 0x0000000003966c6b in SNPSee_81ba29841af262cc8ad9ed51a2e9c85af7afd264c332cb41f5c71f5e1b9260de97a5b8b515572272 ()
+#11 0x0000000003966dde in SNPSee_81ba29841af262ccce78ac35048bd2435c768623abb2a480 ()
+#12 0x0000000003964ca1 in SNPSee_2d942d9ef8843de09cb41c6eb93e176c370c47bb89c2110b ()
+#13 0x0000000004adecb6 in SNPSee_dcb302a1ffa38569c3c63aaab716029d9a5819e87b166ca40efa4d1e00fd3d1c ()
+#14 0x0000000004aeb71c in SNPSee_dcb302a1ffa38569c3c63aaab716029d672da0bba4aa9e8523ce7cd6a66f0bfaae736d2c741b8b13cccc02773c0bebc0 ()
+#15 0x0000000004b0febc in SNPSee_dcb302a1ffa38569c3c63aaab716029d672da0bba4aa9e852dff2d8aae4713de509d51150311a2c7 ()
+#16 0x0000000004adb432 in SNPSee_dcb302a1ffa38569715fa44409df14904314cc204bf3a1589c91537512183a0a ()
+#17 0x0000000004b19d9b in SNPSee_dcb302a1ffa38569715fa44409df149034edd17fc825f657ce913c9699f4d7f8 ()
+#18 0x0000000004a2fef2 in SNPSee_dcb302a1ffa385696a26fae584c53b9f15cde6a5ccde348d0081d5d5ef73195d ()
+#19 0x0000000004a76faa in SNPSee_417d66ce152be4529b0c8cf1daed2f97242f6819684f2d86 ()
+#20 0x0000000004a88b6e in SNPSee_417d66ce152be452811c5b8c0baf0afd0c52bbcf0e5cc4c1143a0df4be78272fea2297ca9b81e1e3 ()
+#21 0x0000000004a88f67 in SNPSee_417d66ce152be452811c5b8c0baf0afd0514411be0880a8f993b7e58f319abfc ()
+#22 0x0000000004a8a3c5 in SNPSee_417d66ce152be45294a003a3018e8120d3628ba563fc12624214d1de6d31e3c36a65602e511be98e9170226249183e5c ()
+#23 0x0000000004a8eaf7 in SNPSee_417d66ce152be452811c5b8c0baf0afdf8cf69dcab152102c13439d9c0d020cce0a7c84b4e06ea6b ()
+#24 0x0000000004a96080 in SNPSee_417d66ce152be452811c5b8c0baf0afd937bc3e2b363e93193a21f5eb95d5153 ()
+#25 0x0000000004a96c24 in SNPSee_417d66ce152be452d0c41e57e9d5e3b8c5c67672c6ca758e ()
+#26 0x0000000004aa2608 in SNPSee_417d66ce152be452d0c41e57e9d5e3b824b27b31d15a51b5a41453204ebdd241 ()
+#27 0x0000000003a60edb in SNPSee_27e526a86667eb9953a615581a2750175710a9f218aaf502bb6494f9f0cf85f5 ()
+#28 0x0000000003a63244 in SNPSee_27e526a86667eb99efc624017d9404cc123404c66f535f8e4725d5f898ff197f ()
+#29 0x000000000390300e in SNPSee_c0e751d30aa20b45915ae6678ff68561ebe16c2f2aa30c48 ()
+#30 0x0000000003907e18 in SNPSee_c0e751d30aa20b458465fcf601c8a2a9 ()
+#31 0x0000000003b17546 in SNPSee_c330831c9ba47c526c742232f8ebb119321b436bc7e1e723 ()
+#32 0x0000000003b17c64 in SNPSee_1eaa922d28a29934f4138043617d5259759cfa0e803d9131 ()
+#33 0x00000000033786ab in SNPSee_491529b53ce409253333d38c1284bc7c02bed1d340622c72280c34dc4b711545 ()
+#34 0x0000000003379fc0 in SNPSee_491529b53ce4092515211491aa51eeaa46b71dc67acaee2c ()
+#35 0x000000000322f34c in SNPSee_800cfa09c4312a2a658022cd459e34616900e8f99890a5ed ()
+#36 0x000000000d850da5 in SNPSee_7ea007f17721baa8c52712154029f5e48c5b42d17487296853bec6f509fb5cd7fb8e3aecaf9a59df5ceaf3227abcdf276664c5bfd5ca6b006d34e6f6d0022bb5aa6a0546020548c042f868058edbb564 ()
+#37 0x000000000d88070e in SNPSee_18ae1188a5a6482452f3b67abbc891010269f13ce0e30d67 ()
+#38 0x000000001308ff0c in SNPSee_57415c5b07ec5e8b8118f96e6212a2c42c69fd3f49376c0d ()
+#39 0x0000000013095087 in SNPSee_1ac40924fdff8310f5184d6eb67c5798036a89169a27d790 ()
+#40 0x0000000013096eff in SNPSee_a00aeeb47fd325df3eff4946e57739a1 ()
+#41 0x000000000d89d746 in SNPSee_5b9e0c983f97901fa4e0af164abe7efeb24c5f4c6136879c869b2b88ca4e26329cbb10d1a609855d ()
+#42 0x000000000d85a87f in SNPSee_59511b0144537c36c6614840eb25b067 ()
+#43 0x000000000d86bd8f in SNPSee_dfcfd18c870f576645dec230cc55940481eea9a4962927b3b2419a5f9f3803d6e6d6151e8a6657b75c63db485ae230e97b8a0dd27c2cdfedd6e7ab8b3504080f ()
+#44 0x000000000d88070e in SNPSee_18ae1188a5a6482452f3b67abbc891010269f13ce0e30d67 ()
+#45 0x000000001308ff0c in SNPSee_57415c5b07ec5e8b8118f96e6212a2c42c69fd3f49376c0d ()
+#46 0x0000000013095087 in SNPSee_1ac40924fdff8310f5184d6eb67c5798036a89169a27d790 ()
+#47 0x000000000d89d90f in SNPSee_5324dab52ede0287208d53ed625dcd815aa0ae17f5926990928869bca4ccf25dc25212939d0f711d0c2a61b2cd7bbe11 ()
+#48 0x000000000d8bc675 in SNPSee_b33c09d91ce56fafa8a31323e8f963fef5c4323de15205d97edc11798026779f799526fc085faa3d8958fe41624e6a4a ()
+#49 0x000000000d86927a in SNPSee_bf1c8284ee4c480d326ed14f7722cb4c5d0ca0bccb32b02186627f52c0620189a7d5eb9bf4ba422d0ecb4c2fce24124586a224032cf469f8fe1b243ab5a5608d ()
+#50 0x000000000d8bccba in SNPSee_b33c09d91ce56faf32f307b3d0d7bfe6a81ece2db4e646fc7bfea8b89aa8d21c72b1b5fed030f4a7deda4e3278b32b4526a3d89237fa738f85fb51d28c1446d9b729f7d279808157 ()
+#51 0x000000000d88070e in SNPSee_18ae1188a5a6482452f3b67abbc891010269f13ce0e30d67 ()
+#52 0x000000000d8bc89b in SNPSee_b33c09d91ce56faf9d8d6a5bd648b84a4bcc803ae7745b1ed7530fcf8322def4305a3dec2a72ad4ae810db3409b641a0b71a3bc03ba35302 ()
+#53 0x0000000013095087 in SNPSee_1ac40924fdff8310f5184d6eb67c5798036a89169a27d790 ()
+#54 0x000000000d87bd08 in SNPSee_eb883b8643ac3618e46fbd7d90d84cd1d9cf41f1ea1de2433ad64196cf3fcc2ce0cf4135a98ecf06 ()
+#55 0x000000000321f44c in SNPSee_6e006e4e82caf05c3e00e2c81b62992d84049db4dfd9a4561d540ef39fca7f54 ()
+#56 0x000000000d850da5 in SNPSee_7ea007f17721baa8c52712154029f5e48c5b42d17487296853bec6f509fb5cd7fb8e3aecaf9a59df5ceaf3227abcdf276664c5bfd5ca6b006d34e6f6d0022bb5aa6a0546020548c042f868058edbb564 ()
+#57 0x000000000d88070e in SNPSee_18ae1188a5a6482452f3b67abbc891010269f13ce0e30d67 ()
+#58 0x000000001308ff0c in SNPSee_57415c5b07ec5e8b8118f96e6212a2c42c69fd3f49376c0d ()
+#59 0x0000000013095087 in SNPSee_1ac40924fdff8310f5184d6eb67c5798036a89169a27d790 ()
+#60 0x0000000013096eff in SNPSee_a00aeeb47fd325df3eff4946e57739a1 ()
+#61 0x000000000d89d746 in SNPSee_5b9e0c983f97901fa4e0af164abe7efeb24c5f4c6136879c869b2b88ca4e26329cbb10d1a609855d ()
+#62 0x000000000d85a87f in SNPSee_59511b0144537c36c6614840eb25b067 ()
+#63 0x000000000d86bd8f in SNPSee_dfcfd18c870f576645dec230cc55940481eea9a4962927b3b2419a5f9f3803d6e6d6151e8a6657b75c63db485ae230e97b8a0dd27c2cdfedd6e7ab8b3504080f ()
+#64 0x000000000d88070e in SNPSee_18ae1188a5a6482452f3b67abbc891010269f13ce0e30d67 ()
+#65 0x000000001308ff0c in SNPSee_57415c5b07ec5e8b8118f96e6212a2c42c69fd3f49376c0d ()
+#66 0x0000000013095087 in SNPSee_1ac40924fdff8310f5184d6eb67c5798036a89169a27d790 ()
+#67 0x000000000d87bd08 in SNPSee_eb883b8643ac3618e46fbd7d90d84cd1d9cf41f1ea1de2433ad64196cf3fcc2ce0cf4135a98ecf06 ()
+#68 0x0000000002da2298 in SNPSee_3221a15a6f1a35304e1e2a6725c055e64954ed411c02b8fea588b35e0540b178b78986c80d1d5eb53d84afadfe38b7c2 ()
+#69 0x0000000002da258f in SNPSee_3221a15a6f1a3530a06e6740411df9e026698cb37d965801c2f87fce0f07c0f8 ()
+#70 0x0000000002da2c87 in SNPSee_76d6cca1ef29382ca84b036280d53dca ()
+#71 0x0000000000d48ac6 in SNPSee_a8c67c391924da59bb0a6e836c77e2d8 ()
+#72 0x0000000000c481b9 in SNPSee_5a24f30b88271223 ()
+#73 0x000015554e15f7e5 in __libc_start_main () from /lib64/libc.so.6
+#74 0x0000000000d4213e in SNPSee_d06eed713327be76 ()
+(gdb) Detaching from program: /mnt/apps/public/COE/synopsys_apps/syn/T-2022.03-SP4/linux64/syn/bin/common_shell_exec, process 783492
+[Inferior 1 (process 783492) detached]
+(gdb) 
